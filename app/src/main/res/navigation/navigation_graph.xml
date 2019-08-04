@@ -11,14 +11,14 @@
         android:label="LandingFragment"
         tools:layout="@layout/fragment_landing">
         <action
-            android:id="@+id/action_landing_dest_to_login_dest"
+            android:id="@+id/action_landingFragment_to_loginFragment"
             app:destination="@id/loginFragment"
             app:enterAnim="@anim/nav_default_enter_anim"
             app:exitAnim="@anim/nav_default_exit_anim"
             app:popEnterAnim="@anim/nav_default_pop_enter_anim"
             app:popExitAnim="@anim/nav_default_pop_exit_anim" />
         <action
-            android:id="@+id/action_landing_dest_to_createAccountFragment"
+            android:id="@+id/action_landingFragment_to_createAccountFragment"
             app:destination="@id/createAccountFragment" />
     </fragment>
     <fragment
@@ -27,8 +27,11 @@
         android:label="LoginFragment"
         tools:layout="@layout/fragment_login">
         <action
-            android:id="@+id/action_login_dest_to_landing_dest"
+            android:id="@+id/action_loginFragment_to_landingFragment"
             app:destination="@id/landingFragment" />
+        <action
+            android:id="@+id/action_loginFragment_to_createAccountFragment"
+            app:destination="@id/createAccountFragment" />
     </fragment>
     <fragment
         android:id="@+id/createAccountFragment"
@@ -38,5 +41,8 @@
         <action
             android:id="@+id/action_createAccountFragment_to_landingFragment"
             app:destination="@id/landingFragment" />
+        <action
+            android:id="@+id/action_createAccountFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
     </fragment>
 </navigation>

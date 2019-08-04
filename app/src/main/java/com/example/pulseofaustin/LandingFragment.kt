@@ -18,10 +18,10 @@ class LandingFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         view.findViewById<Button>(R.id.logInButton).setOnClickListener {
-            findNavController().navigate(R.id.action_landing_dest_to_login_dest)
+            findNavController().navigate(R.id.action_landingFragment_to_loginFragment)
         }
         createAccountButton.setOnClickListener {
-            findNavController().navigate(R.id.action_landing_dest_to_createAccountFragment)
+            findNavController().navigate(R.id.action_landingFragment_to_createAccountFragment)
         }
     }
 }

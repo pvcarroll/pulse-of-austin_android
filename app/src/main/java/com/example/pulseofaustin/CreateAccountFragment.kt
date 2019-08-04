@@ -19,5 +19,8 @@ class CreateAccountFragment : Fragment() {
         cancelButton.setOnClickListener {
             findNavController().navigate(R.id.action_createAccountFragment_to_landingFragment)
         }
+        logInButton.setOnClickListener {
+            findNavController().navigate(R.id.action_createAccountFragment_to_loginFragment)
+        }
     }
 }
