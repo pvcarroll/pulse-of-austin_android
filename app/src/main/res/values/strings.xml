@@ -1,3 +1,22 @@
 <resources>
     <string name="app_name">Pulse of Austin</string>
+    <string name="pulse_of_austin">Pulse of Austin</string>
+    <string name="igniting_people_to_shape_their_city">Igniting people to shape their city.</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="address">Address</string>
+    <string name="zip_code">Zip code</string>
+    <string name="password_minimum_8_characters">Password (minimum 8 characters)</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="create_an_account">Create an Account</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="log_in">Log in</string>
+    <string name="the_pulse_of_austin">The Pulse of Austin</string>
+    <string name="password">Password</string>
+    <string name="new_create_account">New? Create Account</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="login">LOGIN</string>
+    <string name="new_question_mark">New?</string>
+    <string name="create_account">Create Account</string>
+    <string name="skip">SKIP</string>
 </resources>
