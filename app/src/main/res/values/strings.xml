@@ -19,4 +19,7 @@
     <string name="new_question_mark">New?</string>
     <string name="create_account">Create Account</string>
     <string name="skip">SKIP</string>
+    <string name="explore">Explore</string>
+    <string name="beats">Beats</string>
+    <string name="profile">Profile</string>
 </resources>

@@ -20,6 +20,9 @@
         <action
             android:id="@+id/action_landingFragment_to_createAccountFragment"
             app:destination="@id/createAccountFragment" />
+        <action
+            android:id="@+id/action_landingFragment_to_exploreFragment"
+            app:destination="@id/exploreFragment" />
     </fragment>
     <fragment
         android:id="@+id/loginFragment"
@@ -45,4 +48,8 @@
             android:id="@+id/action_createAccountFragment_to_loginFragment"
             app:destination="@id/loginFragment" />
     </fragment>
+    <fragment
+        android:id="@+id/exploreFragment"
+        android:name="com.example.pulseofaustin.ExploreFragment"
+        android:label="ExploreFragment" />
 </navigation>

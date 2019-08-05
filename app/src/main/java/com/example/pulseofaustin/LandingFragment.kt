@@ -23,5 +23,8 @@ class LandingFragment : Fragment() {
         createAccountButton.setOnClickListener {
             findNavController().navigate(R.id.action_landingFragment_to_createAccountFragment)
         }
+        skipButton.setOnClickListener {
+            findNavController().navigate(R.id.action_landingFragment_to_exploreFragment)
+        }
     }
 }
