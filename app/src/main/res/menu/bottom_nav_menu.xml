@@ -4,14 +4,14 @@
 
     <item
         android:id="@+id/exploreBottomNavOption"
-        android:title="@string/explore"
-        android:icon="@drawable/bottomnav_explore"/>
+        android:icon="@drawable/bottomnav_explore"
+        android:title="@string/explore" />
     <item
         android:id="@+id/beatsBottomNavOption"
-        android:title="@string/beats"
-        android:icon="@drawable/bottomnav_beats"/>
+        android:icon="@drawable/bottomnav_beats"
+        android:title="@string/beats" />
     <item
         android:id="@+id/profileBottomNavOption"
-        android:title="@string/profile"
-        android:icon="@drawable/bottomnav_profile"/>
+        android:icon="@drawable/bottomnav_profile"
+        android:title="@string/profile" />
 </menu>
